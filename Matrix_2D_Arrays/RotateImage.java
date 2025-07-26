@@ -1,6 +1,15 @@
 package Matrix_2D_Arrays;
+/*
+Rotate 90° Clockwise (In-place):
 
-public class Solution {
+- Step 1: Transpose the matrix (swap across diagonal).
+- Step 2: Reverse each row.
+
+Time: O(n^2), Space: O(1)
+*/
+
+
+public class RotateImage {
     public void reverse(int[] mat){
         int n = mat.length;
         int left = 0;

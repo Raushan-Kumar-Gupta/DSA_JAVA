@@ -1,4 +1,15 @@
 package Matrix_2D_Arrays;
+/*
+Set Matrix Zeroes:
+
+- If any cell in the matrix is 0, set its entire row and column to 0.
+- First pass: Mark rows and columns that need to be zeroed using two arrays (row[] and col[]).
+- Second pass: Update the matrix based on marked rows and columns.
+
+Time Complexity: O(n * m)
+Space Complexity: O(n + m) for row and col arrays
+*/
+
 class Solution {
     public void setZeroes(int[][] matrix) {
         int n = matrix.length;
