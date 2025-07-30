@@ -8,7 +8,7 @@ class ListNode {
           next = null;
       }
 }
-public class Solution {
+public class CycleDetection {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;

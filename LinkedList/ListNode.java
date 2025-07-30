@@ -1,6 +1,6 @@
 package LinkedList;
 import java.util.*;
-  public class ListNode {
+class ListNode {
       int val;
       ListNode next;
       ListNode() {}
