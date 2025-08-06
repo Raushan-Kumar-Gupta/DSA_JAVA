@@ -13,7 +13,7 @@ Groups anagrams from input array using HashMap
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        int n = strs.length;
+        // int n = strs.length;
         List<List<String>> ans = new ArrayList<>();
         HashMap<String, List<String>> map = new HashMap<>();
         for(String st : strs){
