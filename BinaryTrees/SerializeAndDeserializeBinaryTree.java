@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Codec {
+class Codec {
     StringBuilder str;
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
